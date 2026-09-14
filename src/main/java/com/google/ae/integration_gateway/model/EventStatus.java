@@ -1,5 +1,8 @@
 package com.google.ae.integration_gateway.model;
 
-public class EventStatus {
-    
+public enum EventStatus {
+    PROCESSED,
+    DUPLICATE_SKIPPED,
+    INVALID_SIGNATURE,
+    FAILED
 }
